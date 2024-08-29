@@ -8,8 +8,8 @@ exports.Activity = async function (email, subject, text, link, image) {
         port: 465,
         secure: true,
         auth: {
-            user: 'support@digiphynft.com',
-            pass: 'DigiPhyNFT@123#'
+            user: '',
+            pass: ''
         },
         tls: {
             rejectUnauthorized: false
